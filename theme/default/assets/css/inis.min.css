@@ -1,4 +1,4 @@
-@import url("night.css");
+/* @import url("night.css"); */
 /* 字体选择颜色 */
 ::selection{color:#4988fd;background: #727cf512;}
 ::-moz-selection{color:#4988fd;background: #727cf512;}
@@ -483,10 +483,15 @@ pre.vditor-reset::-webkit-scrollbar-track, #example-textarea::-webkit-scrollbar-
 .inis-slimscroll{max-height: 170px;overflow-y: scroll;}
 #option .nav-tabs.nav-bordered{border-bottom:unset}
 #option input[type=text], #option textarea, .custom-input,
+.links-page .form-control, .links-page textarea,
+#page .form-control, #page textarea,
 #profile .select2-container .select2-selection--single{
     border: unset;border-bottom: 1px solid rgba(0,0,0,.6);border-radius: 0;
 }
+
 #option input[type=text]:hover, #option input[type=text]:focus, #option textarea:hover, #option textarea:focus, 
+.links-page input[type=text]:hover, .links-page input[type=text]:focus, .links-page textarea:hover, .links-page textarea:focus,
+#page input[type=text]:hover, #page input[type=text]:focus, #page textarea:hover, #page textarea:focus, 
 .custom-input:hover, .custom-input:focus{
     cursor: pointer;
     border-bottom: 2px solid rgba(0,0,0,.87);

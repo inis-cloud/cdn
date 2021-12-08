@@ -64,6 +64,7 @@ body[theme=night] .cross .bg-white, body[theme=night] .cross .bg-white img, body
 body[theme=night] .article-content blockquote{
     border-left: 3px solid #6c7071!important;
 }
+body[theme=night] .card-header{background-color: #212121;}
 body[theme=night] #show-login .dropdown-menu .media h6{color: #212121 !important;}
 body[theme=night] .bg-primary{background-color:#727cf5!important;opacity: 0.5!important;}
 body[theme=night] .bg-secondary{background-color:#6c757d!important;opacity: 0.5!important;}
